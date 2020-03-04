@@ -61,7 +61,7 @@ static const char unknown_str[] = "n/a";
  *                              ﬘ ﬙
  */
 static const struct arg args[] = {
-	{ wifi_perc,	"直 %s  ",		"wlp2s0b1" },
+	{ wifi_perc,	"直 %s  ",		"wlp2s0" },
     { ram_perc,     " %s  ",         NULL },
 	/*
 	{ cpu_perc,		" %s%%  ",			NULL },
