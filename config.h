@@ -61,15 +61,15 @@ static const char unknown_str[] = "n/a";
  *                              ﬘ ﬙
  */
 static const struct arg args[] = {
-	{ wifi_perc,	"直 %s  ",		"wlp2s0" },
-    { ram_perc,     " %s  ",         NULL },
+	{ wifi_perc,	"直  %s  ",		"wlp2s0" },
+    { ram_perc,     "  %s  ",         NULL },
 	/*
 	{ cpu_perc,		" %s%%  ",			NULL },
 	{ ram_perc,		" %s%%  ",			NULL },
 	{ temp,			" %sº  ",			"/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input" },
 	{ datetime,		"%s",				"%a, %d %b, %I:%M %p" },
 	*/
-	{ vol_perc,		"  %s  ",		"/dev/mixer" },
+	{ vol_perc,		"   %s  ",		"/dev/mixer" },
     { battery_perc, "   %s ",         "BAT0" },
-	{ datetime,		"%s",				"  %H:%M" },
+	{ datetime,		"%s",				"   %H:%M" },
 };
