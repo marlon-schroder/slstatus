@@ -71,5 +71,5 @@ static const struct arg args[] = {
 	*/
 	{ vol_perc,		"   %s  ",		"/dev/mixer" },
     { battery_perc, "   %s ",         "BAT0" },
-	{ datetime,		"%s",				"   %H:%M" },
+	{ datetime,		"%s",				"    %H:%M" },
 };
